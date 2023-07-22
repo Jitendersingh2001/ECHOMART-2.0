@@ -10,8 +10,8 @@
   /* background-color: red; */
 }
 .container {
-  max-width: 1496px;
-  width: 98%;
+  max-width: 1600px;
+  width: 100%;
   margin: 0 auto;
   /* background-color: green; */
   /* padding: 10px; */
@@ -276,3 +276,54 @@
   color: hsl(0, 0%, 40%);
 }
 /* ==========product end ==============*/
+/* ==========Footer start==============*/
+.footer {
+  background-color: #212121;
+  padding: 20px 0 0;
+}
+.inner-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 0 20px 10%;
+  border-bottom: 1px solid hsl(0, 0%, 30%);
+}
+.footer1,
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-heading {
+  color: #fff;
+}
+.footer-content {
+  margin-top: 8px;
+}
+.footer-content a {
+  text-decoration: none;
+  color: hsl(0, 0%, 40%);
+  transition: 0.4s ease;
+}
+.footer-content a:hover {
+  color: #0066ffba;
+}
+.footer1 hr {
+  width: 40%;
+  height: 2px;
+  background-color: #0066ffba;
+  border: none;
+}
+.inner-footer2 {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 5px;
+  row-gap: 8px;
+}
+.footer-caption {
+  color: hsl(0, 0%, 40%);
+}
+.footer-caption span {
+  font-size: 15px;
+}
+/* ==========Footer end ==============*/
